@@ -1,0 +1,395 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+#section{
+    width: 100%;
+    background-color:black;
+}
+.container {
+    width: 1057px;
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+}
+#blackh {
+    font-size:14px;
+    font-weight: 600;
+    color:white;
+    height: 50px;
+}
+#sit{
+    box-sizing: border-box;
+    float:left;
+    padding-top:16px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+span {
+    color:#24baa0;
+}
+#menu1{
+    float:right;
+}
+li{
+    display:inline-block;
+    margin-right:20px;
+    }
+.clear{
+    clear:both;
+}
+#pink {
+   background: rgba(235,233,249,1);
+background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(234,232,249,1) 2%, rgba(216,208,239,1) 58%, rgba(193,191,234,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(2%, rgba(234,232,249,1)), color-stop(58%, rgba(216,208,239,1)), color-stop(100%, rgba(193,191,234,1)));
+background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(234,232,249,1) 2%, rgba(216,208,239,1) 58%, rgba(193,191,234,1) 100%);
+background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(234,232,249,1) 2%, rgba(216,208,239,1) 58%, rgba(193,191,234,1) 100%);
+background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(234,232,249,1) 2%, rgba(216,208,239,1) 58%, rgba(193,191,234,1) 100%);
+background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(234,232,249,1) 2%, rgba(216,208,239,1) 58%, rgba(193,191,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+
+    height: 350px;
+    margin-bottom: 20px;
+}
+#krzesło {
+    float:left;
+    
+}
+#napis{
+    float:left;
+    width:40%;
+}
+#sit2{
+    font-size:40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top:40px;
+    
+}
+#p{
+    font-size:14px;
+    text-align:center;
+   margin-top:20px;
+    display:block;
+    margin-bottom: 30px;
+        }
+
+#button{
+    width: 250px;
+    height: 40px;
+    background-color:#24baa0;
+    margin: 0 auto;
+    display:block;
+    font-size:24px;
+    border-radius: 5px;
+    color:white;
+    text-align:center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+#button a{
+    text-decoration: none;
+    color:white;
+}
+#margarita, #chairclair,#ramka {
+    display:inline-block;
+    width:329px;
+    height: 225px;
+    margin-right: 20px;
+    float:left;
+}
+#margarita {
+    background-image: url(../images/box1_img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#chairclair {
+    background-image: url(../images/box2_img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#ramka {
+    border: 1px solid grey;
+    position:relative;
+}
+.flo {
+    margin-top:45%;
+    margin-left: 8px;
+    font-weight:900;
+    }
+.flo:after {
+    content:" ";
+    display:block;
+    width: 130px;
+    height: 7px;
+    background-color:#24baa0;
+}
+.flo a{
+    text-decoration: none;
+    color:black;
+}
+.space{
+    margin-top:8px;
+    margin-left: 9px;
+}
+#inside {
+    font-size:14px;
+    font-weight: 200px;
+    margin-left: 9px;
+    margin-top:8px;
+}
+.cennik{
+    font-size: 20px;
+    float:left;
+    margin-top:15px;
+    margin-bottom: 60px;
+}
+.flo.cennik:after{
+    width:300px;
+}
+#cena1, #cena2, #cena3 {
+    display:inline-block;
+    width:326px;
+    height: 497px;
+    margin-right: 20px;
+    float:left;
+    border:1px solid lightgrey;
+    margin-top:30px;
+    padding-top:20px;
+    background-color:white;
+}
+#cena2{
+    background-color:#24baa0;
+}
+    #cena2 .kolko, #cena2 .dolacz{
+        background-color:white;
+    }
+#cena2 .dolacz a {
+   color:#24baa0;
+}
+#cena2 .basicplan {
+    color:white;
+}
+.basicplan{
+    text-align:center;
+    color:#24baa0;
+    margin-left:8%;
+    display:block;
+    font-size:20px;
+    padding-bottom: 8px;
+    font-weight: 800;
+    padding-top:0px;
+    margin-top:-35px;
+}
+.kolko {
+    border-radius:50%;
+    border:1px solid lightgrey;
+    display:block;
+    width:160px;
+    height: 160px;
+    margin:0 auto;
+    color:lightgrey;
+}
+.p1{
+    margin-top:15%;
+    position:relative;
+    font-size:40px;
+    font-weight: 900;
+    color:lightgrey;
+    text-align:center;
+}
+.p1 span{
+    font-size:20px;
+    color:lightgrey;
+}
+.zakup,.serwis, .gwarancja{
+    background-color:lightgrey;
+    width:100%;
+    height: 40px;
+    text-align:center;
+    color:grey;
+    font-size:20px;
+    margin-top:10%;
+    padding-top:6px;
+    box-sizing: border-box;
+    
+}
+.serwis{
+    background-color: #e5e6eb;
+    margin-top:0px;
+}
+.gwarancja {
+    margin-top:0px;
+    background-color:lightgrey;
+}
+#drugagwa {
+    margin-top:25%;
+}
+
+.dolacz {
+    width:200px;
+    height: 40px;
+    background-color:#24baa0;
+    color:white;
+    text-align:center;
+    border-radius:5px;
+    margin-top: 37%;
+    margin-left:22%;
+    padding:8px;
+    box-sizing:border-box;
+    font-size:20px;
+}
+.dolacz a{
+    color:white;
+    text-decoration: none;
+}
+#porady{
+    margin-top:12%;
+}
+
+.round1 {
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color:white;
+    border:3px solid lightgrey;
+    position:relative;
+    top:-50px;
+    left:40%;
+    z-index:1;
+}
+#blue{
+    background-color:#24baa0;
+    border: 2px solid #24baa0;
+}
+.round2{
+    height: 25px;
+    width:25px;
+    border-radius:50%;
+    background-color:lightgrey;
+    margin-top:25%;
+    margin-left:25%;
+    
+}
+#grey{
+    background-color:#e5e6eb;
+    width:100%;
+    padding-bottom: 5%;
+    padding-top:1%;
+}
+#next{
+    margin-bottom: 4%;
+    margin-top:2%;
+}
+#arrow1{
+    font-size:80px;
+    font-weight: 400;
+    position:absolute;
+    top:23%;
+
+}
+#arrow2{
+    font-size:80px;
+    font-weight: 400;
+    position:absolute;
+    top:23%;
+    right:1px;
+}
+#arrow1 a, #arrow2 a{
+    text-decoration: none;
+    color:#24baa0;
+}
+#formInside{
+    padding-top: 5px;
+}
+#formLeft{
+float:left;
+width: 65%;
+}
+.one{
+    font-size:25px;
+    width:95%;
+    height: 50px;
+}
+.f{
+    margin-bottom: 15px;
+}
+#message1{
+    height: 200px;
+}
+#formRight{
+    float:left;
+    display:block;
+    width:25%;
+    margin-left: 20px;
+    
+}
+#redChair{
+    float:left;
+    top: 15%;
+    right: 10px;
+}
+#zgoda{
+    margin-top:10px;
+}
+#check{
+    float:left;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #24baa0;
+    display:inline;
+    background-image: url(../images/form_ok.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#daneOsobowe{
+    display:inline;
+    height:35px;
+    width: 200px;
+    margin-left: 15px;
+    display: inline;
+    float: left;
+    font-size: 15px;
+}
+#send{
+    width:300px;
+    background-color: #24baa0;
+    height: 35px;
+    color:white;
+    text-align:center;
+    border-radius:4px;
+    margin-top: 56px;
+    padding-top: 4px;
+    font-size: 25px;
+}
+#send a{
+    text-decoration: none;
+    color:white;
+}
+#foot{
+    margin-top:20px;
+}
+#copyright{
+    float:left;
+    display:inline;
+    width: 67%;
+    height: 50px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.pic{
+    margin-right: 3px;
+}
+#sitOn{
+    float:left;
+    display:inline;
+    padding-top: 27px;
+    margin-left: 2px;
+}
+#logos{
+    width: 200px;
+    display: inline;
+    float: left;
+}
